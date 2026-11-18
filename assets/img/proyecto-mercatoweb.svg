@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgMercato" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="cardMercato" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="16" fill="url(#bgMercato)"/>
+
+  <!-- Browser Window Chrome -->
+  <rect x="40" y="25" width="720" height="42" rx="8" fill="#1E293B" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="65" cy="46" r="4.5" fill="#EF4444"/>
+  <circle cx="80" cy="46" r="4.5" fill="#F59E0B"/>
+  <circle cx="95" cy="46" r="4.5" fill="#10B981"/>
+  
+  <!-- URL Address Bar -->
+  <rect x="130" y="34" width="480" height="24" rx="12" fill="#0F172A"/>
+  <text x="370" y="50" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">https://mercatoweb.store/catalogo-verano</text>
+  <circle cx="640" cy="46" r="8" fill="#334155"/>
+
+  <!-- Hero Banner Inside Website -->
+  <rect x="55" y="85" width="690" height="130" rx="12" fill="url(#orangeGrad)"/>
+  <text x="85" y="130" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="26">MERCATOWEB EXCLUSIVE</text>
+  <text x="85" y="155" fill="rgba(255,255,255,0.9)" font-family="'Inter', sans-serif" font-size="13">Catálogo responsive optimizado con CSS Grid, microinteracciones y WPO 100%.</text>
+  <rect x="85" y="172" width="130" height="30" rx="15" fill="#0F172A"/>
+  <text x="150" y="192" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">VER NOVEDADES</text>
+
+  <!-- Filter Pills -->
+  <rect x="55" y="230" width="80" height="28" rx="14" fill="#F97316"/>
+  <text x="95" y="248" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="12" font-weight="600" text-anchor="middle">Todos (48)</text>
+
+  <rect x="145" y="230" width="105" height="28" rx="14" fill="#334155"/>
+  <text x="197" y="248" fill="#CBD5E1" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle">Tecnología</text>
+
+  <rect x="260" y="230" width="95" height="28" rx="14" fill="#334155"/>
+  <text x="307" y="248" fill="#CBD5E1" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle">Moda &amp; Urban</text>
+
+  <rect x="365" y="230" width="95" height="28" rx="14" fill="#334155"/>
+  <text x="412" y="248" fill="#CBD5E1" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle">Hogar &amp; Deco</text>
+
+  <!-- Product Grid (3 cards) -->
+  <!-- Card 1 -->
+  <rect x="55" y="275" width="215" height="180" rx="12" fill="url(#cardMercato)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="65" y="285" width="195" height="85" rx="8" fill="#1E293B"/>
+  <circle cx="162" cy="327" r="24" fill="#334155"/>
+  <path d="M152 327h20M162 317v20" stroke="#F97316" stroke-width="2"/>
+  <text x="70" y="392" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">Auriculares Pro Noise</text>
+  <text x="70" y="410" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Audio Hi-Res · Bluetooth 5.3</text>
+  <text x="70" y="438" fill="#F97316" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="700">89,99 €</text>
+  <circle cx="245" cy="433" r="14" fill="#F97316"/>
+  <path d="M241 433h8M245 429v8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Card 2 -->
+  <rect x="290" y="275" width="220" height="180" rx="12" fill="url(#cardMercato)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="300" y="285" width="200" height="85" rx="8" fill="#1E293B"/>
+  <circle cx="400" cy="327" r="24" fill="#334155"/>
+  <rect x="390" y="317" width="20" height="20" rx="4" fill="#F97316"/>
+  <text x="305" y="392" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">Smartwatch Apex 4</text>
+  <text x="305" y="410" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Sensor AMOLED · GPS 14 días</text>
+  <text x="305" y="438" fill="#F97316" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="700">149,00 €</text>
+  <circle cx="485" cy="433" r="14" fill="#F97316"/>
+  <path d="M481 433h8M485 429v8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Card 3 -->
+  <rect x="530" y="275" width="215" height="180" rx="12" fill="url(#cardMercato)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="540" y="285" width="195" height="85" rx="8" fill="#1E293B"/>
+  <circle cx="637" cy="327" r="24" fill="#334155"/>
+  <polygon points="637,315 647,335 627,335" fill="#F97316"/>
+  <text x="545" y="392" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">Mochila Urban Shield</text>
+  <text x="545" y="410" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Impermeable · Compartimento 16"</text>
+  <text x="545" y="438" fill="#F97316" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="700">54,50 €</text>
+  <circle cx="720" cy="433" r="14" fill="#F97316"/>
+  <path d="M716 433h8M720 429v8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

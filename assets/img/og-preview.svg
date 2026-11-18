@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0D10"/>
+      <stop offset="60%" stop-color="#111622"/>
+      <stop offset="100%" stop-color="#182030"/>
+    </linearGradient>
+    <linearGradient id="ogAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <radialGradient id="glowCircle" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <circle cx="1000" cy="150" r="450" fill="url(#glowCircle)"/>
+  <circle cx="150" cy="550" r="300" fill="#10B981" opacity="0.08"/>
+
+  <!-- Logo Pill -->
+  <rect x="90" y="90" width="180" height="46" rx="23" fill="#1A2230" stroke="rgba(255,255,255,0.1)"/>
+  <text x="180" y="120" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="20" text-anchor="middle">devManuD<tspan fill="#10B981">.</tspan></text>
+
+  <!-- Tagline Badge -->
+  <rect x="90" y="170" width="370" height="36" rx="18" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.3)"/>
+  <circle cx="115" cy="188" r="5" fill="#10B981"/>
+  <text x="135" y="193" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">DISPONIBLE PARA FCT · CÁCERES / REMOTO</text>
+
+  <!-- Main Headline -->
+  <text x="90" y="280" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="52" letter-spacing="-1">
+    Diseño con criterio visual.
+  </text>
+  <text x="90" y="345" fill="url(#ogAccent)" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="52" letter-spacing="-1">
+    Desarrollo con arquitectura limpia.
+  </text>
+
+  <!-- Subtitle -->
+  <text x="90" y="420" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="22" font-weight="400">
+    Perfil Híbrido: Titulado en Imagen &amp; Diseño Gráfico + 2º DAM (Multiplataforma).
+  </text>
+  <text x="90" y="455" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="22" font-weight="400">
+    UI/UX · Frontend Moderno · TypeScript · Kotlin / Compose · Java / JavaFX.
+  </text>
+
+  <!-- Footer Info -->
+  <rect x="90" y="525" width="1020" height="2" fill="rgba(255,255,255,0.08)"/>
+  <text x="90" y="565" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="16">
+    🌐 mdpozo.github.io  |  GitHub: @mdpozo  |  Cáceres, España
+  </text>
+</svg>

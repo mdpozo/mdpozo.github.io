@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- ====================================================================
+       SEO Y METADATOS TÉCNICOS
+       ==================================================================== -->
+  <title>Manu (devManuD) — Diseñador Gráfico &amp; Desarrollador Multiplataforma (DAM)</title>
+  <meta name="description" content="Portfolio de Manu (devManuD). Perfil híbrido: Titulado en Imagen &amp; Diseño Gráfico y estudiante de 2º DAM en Cáceres. Especialista en UI/UX, TypeScript, Kotlin, Java y arquitecturas limpias.">
+  <meta name="keywords" content="Desarrollador Multiplataforma, DAM, Diseño Gráfico, UI/UX, Cáceres, FCT, Frontend, TypeScript, Kotlin, Jetpack Compose, JavaFX, devManuD">
+  <meta name="author" content="Manuel Pozo (@mdpozo)">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mdpozo.github.io/">
+
+  <!-- Open Graph / Redes Sociales (LinkedIn, Telegram, WhatsApp, Twitter) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mdpozo.github.io/">
+  <meta property="og:title" content="Manu (devManuD) — Diseño Gráfico &amp; Desarrollo DAM">
+  <meta property="og:description" content="Diseño con criterio visual. Desarrollo con arquitectura limpia. Perfil híbrido preparado para agencias digitales y consultoras tecnológicas. Disponible para FCT en Cáceres o Remoto.">
+  <meta property="og:image" content="https://mdpozo.github.io/assets/img/og-preview.svg">
+  <meta property="og:locale" content="es_ES">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Manu (devManuD) — Diseño Gráfico &amp; Desarrollo Multiplataforma">
+  <meta name="twitter:description" content="Perfil híbrido en Cáceres: Imagen &amp; Diseño Gráfico + 2º DAM. Explora mis proyectos en TypeScript, JavaFX y Flutter.">
+  <meta name="twitter:image" content="https://mdpozo.github.io/assets/img/og-preview.svg">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <!-- Google Fonts Preconnect & Import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos principal -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ====================================================================
+       1. NAVBAR MINIMALISTA (STICKY GLASSMORPHISM)
+       ==================================================================== -->
+  <header class="navbar" id="top">
+    <div class="container">
+      <a href="#top" class="nav-brand" aria-label="Ir al inicio de devManuD">
+        <div class="brand-monogram">MD</div>
+        <span class="brand-name">devManuD<span class="brand-dot">.</span></span>
+      </a>
+
+      <!-- Enlaces de navegación de escritorio -->
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#perfil-hibrido" class="nav-link">Perfil Híbrido</a></li>
+          <li><a href="#stack" class="nav-link">Stack</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="assets/cv/CV_Manuel_Pozo_DAM.pdf" download="CV_Manuel_Pozo_DAM.pdf" class="btn btn-secondary btn-sm" aria-label="Descargar currículum en formato PDF">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Descargar CV
+        </a>
+
+        <!-- Botón menú móvil -->
+        <button class="mobile-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navLinks">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ====================================================================
+       2. HERO SECTION (IMPACTO VISUAL INMEDIATO)
+       ==================================================================== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <!-- Badge de disponibilidad FCT -->
+      <div class="status-badge">
+        <span class="status-pulse" aria-hidden="true"></span>
+        <span>Disponible para FCT · Cáceres / Remoto</span>
+      </div>
+
+      <!-- Titular de alto impacto -->
+      <h1 class="hero-title">
+        Diseño con criterio visual.<br>
+        <span class="text-gradient">Desarrollo con arquitectura limpia.</span>
+      </h1>
+
+      <!-- Subtítulo explicativo del perfil híbrido -->
+      <p class="hero-subtitle">
+        Titulado en <strong>Imagen y Diseño Gráfico</strong> finalizando <strong>2º de Desarrollo de Aplicaciones Multiplataforma (DAM)</strong>. 
+        Cierro la brecha entre el prototipo creativo de alta fidelidad y la ingeniería de software moderna, construyendo aplicaciones web, móviles y de escritorio que enamoran al usuario y son sostenibles en código.
+      </p>
+
+      <!-- Botones de llamada a la acción -->
+      <div class="hero-actions">
+        <a href="#proyectos" class="btn btn-primary">
+          <span>Ver Proyectos Seleccionados</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <a href="https://github.com/mdpozo" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <span>GitHub (@mdpozo)</span>
+        </a>
+      </div>
+
+      <!-- Highlights en píldoras -->
+      <div class="hero-highlights">
+        <div class="highlight-item">
+          <div class="highlight-icon" aria-hidden="true">🎯</div>
+          <div>
+            <h2 class="highlight-title">Visión de Producto</h2>
+            <p class="highlight-desc">Diseño centrado en conversión, WPO y experiencia de usuario.</p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon" aria-hidden="true">⚡</div>
+          <div>
+            <h2 class="highlight-title">Front-end Moderno</h2>
+            <p class="highlight-desc">TypeScript, React, componentes modulares y CSS semántico.</p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon" aria-hidden="true">📱</div>
+          <div>
+            <h2 class="highlight-title">Multiplataforma DAM</h2>
+            <p class="highlight-desc">Kotlin Compose, JavaFX, Python Odoo y arquitecturas MVC/MVVM.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       3. SECCIÓN "EL PUENTE DISEÑO + CÓDIGO" (DIFERENCIADOR CLAVE)
+       ==================================================================== -->
+  <section class="bridge-section" id="perfil-hibrido">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Propuesta de Valor Única</span>
+        <h2 class="section-title">El Puente entre Diseño &amp; Código</h2>
+        <p class="section-desc">
+          En un sector donde los diseñadores rara vez entienden las restricciones técnicas y los desarrolladores ignoran el espaciado o la tipografía, mi perfil aporta fluidez inmediata a equipos multidisciplinares.
+        </p>
+      </div>
+
+      <!-- Bento Grid de 2 Columnas -->
+      <div class="bento-grid">
+        <!-- Columna 1: Visión UI/UX & Marketing -->
+        <article class="bento-card bento-col-design">
+          <span class="bento-badge badge-design">01 · VISIÓN UI/UX &amp; DISEÑO</span>
+          <h3 class="bento-title">Criterio Visual, Branding y UX</h3>
+          <p class="bento-text">
+            Mi formación previa en Imagen y Diseño Gráfico me permite estructurar interfaces que no solo funcionan, sino que comunican solidez de marca y guían al usuario hacia el objetivo del producto:
+          </p>
+          <ul class="bento-list">
+            <li>
+              <span class="bullet" aria-hidden="true">✔</span>
+              <span><strong>Sistemas de Diseño &amp; Tokens:</strong> Definición rigurosa de escalas tipográficas, paletas cromáticas contrastadas y rejillas de 8pt.</span>
+            </li>
+            <li>
+              <span class="bullet" aria-hidden="true">✔</span>
+              <span><strong>Jerarquía &amp; Composición:</strong> Dirección del ojo del usuario hacia los puntos de conversión y eliminación de ruido visual.</span>
+            </li>
+            <li>
+              <span class="bullet" aria-hidden="true">✔</span>
+              <span><strong>Herramientas Profesionales:</strong> Dominio nativo de Figma, Adobe Illustrator, Photoshop e InDesign para activos vectoriales e identidad.</span>
+            </li>
+            <li>
+              <span class="bullet" aria-hidden="true">✔</span>
+              <span><strong>WPO &amp; SEO Técnico:</strong> Optimización de recursos gráficos (SVG, WebP) y estructuras semánticas para velocidad de carga instantánea.</span>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Columna 2: Ingeniería Multiplataforma -->
+        <article class="bento-card bento-col-code">
+          <span class="bento-badge badge-code">02 · INGENIERÍA MULTIPLATAFORMA</span>
+          <h3 class="bento-title">Arquitectura Limpia &amp; Escalabilidad</h3>
+          <p class="bento-text">
+            Los conocimientos adquiridos en 2º de DAM me permiten transformar wireframes en aplicaciones reales sin depender de parches y respetando los estándares de la industria:
+          </p>
+          <ul class="bento-list">
+            <li>
+              <span class="bullet" aria-hidden="true">✔</span>
+              <span><strong>Patrones Arquitectónicos:</strong> Implementación consistente de MVVM, MVC y capas de acceso a datos (DAO/Repository).</span>
+            </li>
+            <li>
+              <span class="bullet" aria-hidden="true">✔</span>
+              <span><strong>Componentización Reutilizable:</strong> Creación de bibliotecas de componentes independientes, desacopladas y fáciles de mantener.</span>
+            </li>
+            <li>
+              <span class="bullet" aria-hidden="true">✔</span>
+              <span><strong>Desarrollo Multiplataforma:</strong> Aplicaciones móviles en Kotlin/Compose y Capacitor, escritorio en JavaFX y backend/ERP en Python (Odoo).</span>
+            </li>
+            <li>
+              <span class="bullet" aria-hidden="true">✔</span>
+              <span><strong>Control de Versiones Profesional:</strong> Flujos de trabajo con Git, commits bajo estándar Conventional Commits y CI/CD en GitHub.</span>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Banner Sinérgico Inferior -->
+        <article class="bento-card bento-card-full">
+          <span class="bento-badge badge-synergy">IMPACTO EN AGENCIA Y CONSULTORA</span>
+          <div class="bento-banner-content">
+            <div class="bento-banner-text">
+              <h3>¿Qué significa esto para tu equipo en Cáceres o en remoto?</h3>
+              <p>
+                Menos reuniones de fricción entre diseño y maquetación, menor tiempo de entrega (Time-to-Market), especificaciones técnicas que se cumplen al píxel y productos web terminados con calidad de agencia internacional.
+              </p>
+            </div>
+            <a href="#contacto" class="btn btn-emerald">
+              <span>Hablemos de mi incorporación</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       4. SECCIÓN PROYECTOS DESTACADOS
+       ==================================================================== -->
+  <section class="projects-section" id="proyectos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio Técnico</span>
+        <h2 class="section-title">Proyectos Seleccionados</h2>
+        <p class="section-desc">
+          Casos prácticos donde se combinan decisiones avanzadas de interfaz con implementaciones técnicas reales en múltiples plataformas.
+        </p>
+      </div>
+
+      <!-- Barra de Filtros Interactiva -->
+      <div class="filter-bar" role="tablist" aria-label="Filtrar proyectos por categoría">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos (3)</button>
+        <button class="filter-btn" data-filter="frontend" role="tab" aria-selected="false">Frontend &amp; UI</button>
+        <button class="filter-btn" data-filter="multiplataforma" role="tab" aria-selected="false">Multiplataforma &amp; DAM</button>
+      </div>
+
+      <!-- Grid de Proyectos -->
+      <div class="projects-grid">
+        <!-- PROYECTO 1: GREMIO / QUESTFIT -->
+        <article class="project-card" data-category="frontend multiplataforma">
+          <div class="project-media">
+            <img src="assets/img/proyecto-gremio.svg" alt="Captura interactiva de la aplicación Gremio" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <span class="tag tag-accent">Destacado · Mobile &amp; Web</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">React 19</span>
+              <span class="tag">Tailwind v4</span>
+              <span class="tag">Capacitor Android</span>
+            </div>
+            <h3 class="project-title">
+              <span>Gremio (QuestFit)</span>
+            </h3>
+            <p class="project-desc">
+              Aplicación híbrida de fitness que gamifica entrenamientos transformándolos en misiones de rol (RPG), con Puntos de Experiencia (EXP), oro, radar de atributos físicos y feedback háptico.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com/mdpozo/Gremio" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Ver código de Gremio en GitHub">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12z"/></svg>
+                  <span>Código</span>
+                </a>
+                <a href="https://github.com/mdpozo/Gremio" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Ver demo o releases de Gremio">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Releases</span>
+                </a>
+              </div>
+              <button class="btn btn-secondary btn-sm open-modal-btn" data-project="gremio" aria-label="Ver detalles de arquitectura de Gremio">
+                Detalles
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROYECTO 2: ALQUILER DE PATINETES (JAVAFX) -->
+        <article class="project-card" data-category="multiplataforma">
+          <div class="project-media">
+            <img src="assets/img/proyecto-patinetes.svg" alt="Captura del dashboard JavaFX EcoScoot" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <span class="tag tag-accent">Desktop DAM · MVC + DAO</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Java 21</span>
+              <span class="tag">JavaFX</span>
+              <span class="tag">Patrón MVC</span>
+              <span class="tag">Patrón DAO</span>
+            </div>
+            <h3 class="project-title">
+              <span>Alquiler de Patinetes</span>
+            </h3>
+            <p class="project-desc">
+              Suite de escritorio para gestión y telemetría de una flota de patinetes eléctricos urbanos, con cálculo de tarifas en tiempo real, gestión de incidencias y diseño modular en JavaFX.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com/mdpozo/alquiler-patinetes-javafx" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Ver repositorio en GitHub">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12z"/></svg>
+                  <span>Código</span>
+                </a>
+              </div>
+              <button class="btn btn-secondary btn-sm open-modal-btn" data-project="patinetes" aria-label="Ver detalles técnicos de Alquiler de Patinetes">
+                Detalles
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROYECTO 3: MERCATOWEB -->
+        <article class="project-card" data-category="frontend">
+          <div class="project-media">
+            <img src="assets/img/proyecto-mercatoweb.svg" alt="Captura del diseño de MercatoWeb" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <span class="tag tag-accent">Web Moderna · WPO &amp; CSS Grid</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">HTML5 Semántico</span>
+              <span class="tag">CSS3 Moderno</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Responsive UI</span>
+            </div>
+            <h3 class="project-title">
+              <span>MercatoWeb</span>
+            </h3>
+            <p class="project-desc">
+              Plataforma de catálogo comercial construida con foco en velocidad de carga y maquetación responsiva avanzada, demostrando dominio de CSS Grid, Flexbox y jerarquía editorial.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com/mdpozo/MercatoWeb" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Ver código de MercatoWeb en GitHub">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12z"/></svg>
+                  <span>Código</span>
+                </a>
+              </div>
+              <button class="btn btn-secondary btn-sm open-modal-btn" data-project="mercatoweb" aria-label="Ver detalles de diseño de MercatoWeb">
+                Detalles
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       5. STACK TÉCNICO & HERRAMIENTAS
+       ==================================================================== -->
+  <section class="stack-section" id="stack">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Competencias &amp; Toolkit</span>
+        <h2 class="section-title">Stack Tecnológico</h2>
+        <p class="section-desc">
+          Herramientas y lenguajes que utilizo habitualmente para diseñar experiencias y programar software estructurado.
+        </p>
+      </div>
+
+      <div class="stack-categories">
+        <!-- Bloque 1: Diseño & Prototipado -->
+        <div class="stack-card">
+          <div class="stack-card-header">
+            <div class="stack-icon-box box-design" aria-hidden="true">🎨</div>
+            <div>
+              <h3 class="stack-card-title">Diseño &amp; Prototipado</h3>
+              <span class="mono" style="font-size:0.75rem; color:var(--text-muted);">UI/UX &amp; Identidad Visual</span>
+            </div>
+          </div>
+          <div class="stack-skills-list">
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                Figma (Auto-layout, Tokens)
+              </span>
+              <span class="skill-badge-level">Avanzado</span>
+            </div>
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                Sistemas de Diseño (Design Systems)
+              </span>
+              <span class="skill-badge-level">Especialidad</span>
+            </div>
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/></svg>
+                Adobe Photoshop &amp; Illustrator
+              </span>
+              <span class="skill-badge-level">Titulado</span>
+            </div>
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                Adobe InDesign &amp; Maquetación
+              </span>
+              <span class="skill-badge-level">Titulado</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bloque 2: Frontend & Web -->
+        <div class="stack-card">
+          <div class="stack-card-header">
+            <div class="stack-icon-box box-front" aria-hidden="true">🌐</div>
+            <div>
+              <h3 class="stack-card-title">Frontend &amp; Web</h3>
+              <span class="mono" style="font-size:0.75rem; color:var(--text-muted);">Arquitectura Web Reactiva</span>
+            </div>
+          </div>
+          <div class="stack-skills-list">
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                TypeScript &amp; JavaScript Moderno
+              </span>
+              <span class="skill-badge-level">Avanzado</span>
+            </div>
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                React 19 / Component-Driven
+              </span>
+              <span class="skill-badge-level">Competente</span>
+            </div>
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                HTML5 Semántico, CSS Grid &amp; Flex
+              </span>
+              <span class="skill-badge-level">Avanzado</span>
+            </div>
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                WPO, SEO Técnico &amp; Accesibilidad
+              </span>
+              <span class="skill-badge-level">100% Score</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bloque 3: Multiplataforma & Backend -->
+        <div class="stack-card">
+          <div class="stack-card-header">
+            <div class="stack-icon-box box-native" aria-hidden="true">⚙️</div>
+            <div>
+              <h3 class="stack-card-title">Multiplataforma &amp; Backend</h3>
+              <span class="mono" style="font-size:0.75rem; color:var(--text-muted);">2º DAM Multiplataforma</span>
+            </div>
+          </div>
+          <div class="stack-skills-list">
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                Kotlin &amp; Jetpack Compose (M3)
+              </span>
+              <span class="skill-badge-level">Android Nativo</span>
+            </div>
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                Java &amp; JavaFX (Patrones MVC/DAO)
+              </span>
+              <span class="skill-badge-level">Desktop</span>
+            </div>
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                Python &amp; Odoo ERP (Módulos)
+              </span>
+              <span class="skill-badge-level">Empresarial</span>
+            </div>
+            <div class="skill-pill-item">
+              <span class="skill-name">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                SQL / PostgreSQL &amp; Git / GitHub
+              </span>
+              <span class="skill-badge-level">Consistente</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       6. SECCIÓN CONTACTO & FOOTER
+       ==================================================================== -->
+  <section class="contact-section" id="contacto">
+    <div class="container">
+      <div class="contact-card">
+        <span class="section-tag" style="background:rgba(59,130,246,0.15); border-color:rgba(59,130,246,0.3);">Contacto Directo</span>
+        <h2 class="contact-title">¿Buscando talento para tu equipo en Cáceres?</h2>
+        <p class="contact-desc">
+          Estoy disponible para incorporarme a las <strong>prácticas de FCT de 2º de DAM</strong> en empresas, agencias de marketing digital y consultoras de software de Cáceres o en modalidad remota. Si buscas a alguien que diseñe con gusto y programe sin excusas, hablemos.
+        </p>
+
+        <div class="contact-actions">
+          <div class="email-copy-wrapper">
+            <button class="btn btn-primary" id="copyEmailBtn" aria-label="Copiar correo electrónico al portapapeles">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Copiar Email (mdpozo04@gmail.com)</span>
+            </button>
+          </div>
+
+          <a href="mailto:mdpozo04@gmail.com?subject=Prácticas%20FCT%20DAM%20-%20Contacto%20Portfolio" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>Enviar Mensaje</span>
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/mdpozo" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Perfil de GitHub de Manuel Pozo">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12z"/></svg>
+            <span>github.com/mdpozo</span>
+          </a>
+          <a href="https://linkedin.com/in/manuel-pozo-dam" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Perfil de LinkedIn de Manuel Pozo">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <span>LinkedIn (Manuel Pozo)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-copy">
+        © 2026 <strong>Manuel Pozo (devManuD)</strong> — Diseñado &amp; programado desde Cáceres, Extremadura.
+      </p>
+      <p class="footer-meta">
+        Desplegado en GitHub Pages · HTML5 + CSS3 + Vanilla JS
+      </p>
+    </div>
+  </footer>
+
+  <!-- ====================================================================
+       7. MODAL DE DETALLES DE PROYECTO (ACCESIBLE WAI-ARIA)
+       ==================================================================== -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Cerrar ventana modal">&times;</button>
+      <div class="modal-header">
+        <span class="section-tag" id="modalCategory">Frontend &amp; UI</span>
+        <h3 class="modal-title" id="modalTitle">Título del Proyecto</h3>
+        <div class="project-tags" id="modalTags"></div>
+      </div>
+      
+      <div class="modal-image">
+        <img src="" alt="" id="modalImg">
+      </div>
+
+      <div class="modal-body-content">
+        <h4 class="modal-section-title">Resumen &amp; Propósito</h4>
+        <p class="modal-text" id="modalSummary"></p>
+
+        <h4 class="modal-section-title">🎨 Decisiones Visuales &amp; UI/UX</h4>
+        <p class="modal-text" id="modalUi"></p>
+
+        <h4 class="modal-section-title">⚙️ Arquitectura &amp; Solvencia Técnica</h4>
+        <p class="modal-text" id="modalArch"></p>
+      </div>
+
+      <div class="modal-actions">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="modalGithub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12z"/></svg>
+          <span>Explorar Repositorio en GitHub</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast de notificación para copia de email -->
+  <div class="toast" id="toast" role="status" aria-live="polite">¡Email copiado al portapapeles!</div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
