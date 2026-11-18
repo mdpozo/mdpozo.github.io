@@ -1,4 +1,4 @@
-# 🌐 Portfolio Web Personal — Manu (devManuD)
+# Portfolio Web Personal — Manu (devManuD)
 
 [![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://mdpozo.github.io/)
 [![HTML5](https://img.shields.io/badge/HTML5-Semántico-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 Propósito y Perfil a Proyectar
+## Propósito y Perfil a Proyectar
 
 Este repositorio contiene el código fuente de mi **sitio web portfolio personal**, diseñado y programado desde cero para ser publicado en **GitHub Pages** (`https://mdpozo.github.io/`).
 
@@ -21,7 +21,7 @@ Está concebido específicamente como carta de presentación ante agencias de ma
 
 ---
 
-## 🎨 Decisiones de Diseño UI/UX & Dirección de Arte
+## Decisiones de Diseño UI/UX & Dirección de Arte
 
 La interfaz sigue una estética **"Editorial Tech / Dark Mode"**, proyectando modernidad, rigor técnico y elegancia visual:
 
@@ -47,7 +47,7 @@ Se importan tres familias tipográficas de Google Fonts con propósitos compleme
 
 ---
 
-## ⚙️ Rendimiento & SEO Técnico (WPO)
+## Rendimiento & SEO Técnico (WPO)
 
 La web ha sido programada con **cero dependencias externas pesadas**:
 - **Cero frameworks CSS/JS:** Ni Bootstrap, ni Tailwind CDN, ni bibliotecas de animaciones innecesarias. Carga inicial ultrarrápida (&lt; 200 ms).
@@ -57,7 +57,7 @@ La web ha sido programada con **cero dependencias externas pesadas**:
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```plaintext
 PortfolioWeb/
@@ -82,7 +82,7 @@ PortfolioWeb/
 
 ---
 
-## 🚀 Despliegue en GitHub Pages (`mdpozo.github.io`)
+## Despliegue en GitHub Pages (mdpozo.github.io)
 
 Para que la web esté activa públicamente en tu dominio gratuito de GitHub Pages:
 
@@ -101,7 +101,7 @@ git remote add origin https://github.com/mdpozo/mdpozo.github.io.git
 
 ### 3. Crear el repositorio en GitHub
 1. Entra en tu cuenta de GitHub y crea un nuevo repositorio llamado exactamente:  
-   👉 **`mdpozo.github.io`**  
+   **`mdpozo.github.io`**  
    *(Marca la opción **Public** y no agregues README ni .gitignore al crearlo).*
 
 ### 4. Subir los archivos a la rama main
@@ -111,7 +111,7 @@ git push -u origin main
 
 ### 5. Verificación de GitHub Pages
 GitHub detecta automáticamente los repositorios nombrados `<usuario>.github.io` y activa el despliegue en la raíz de la rama `main`. En menos de 2 minutos tu web estará disponible en:  
-👉 **`https://mdpozo.github.io/`**
+**`https://mdpozo.github.io/`**
 
 ---
 
