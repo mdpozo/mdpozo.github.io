@@ -79,19 +79,29 @@ function initProjectFilters() {
  * 3. MODAL DE DETALLE DE PROYECTO
  * -------------------------------------------------------------------------- */
 const projectsData = {
-  gremio: {
-    title: 'Gremio / QuestFit',
-    category: 'TypeScript · UI/UX · Frontend · Capacitor Android',
-    image: 'assets/img/proyecto-gremio.svg',
-    summary: 'Aplicación híbrida orientada al fitness que gamifica el esfuerzo físico transformando rutinas deportivas en misiones de rol (RPG), con Puntos de Experiencia (EXP), oro virtual y subidas de nivel.',
-    uiDecisions: 'Diseño Dark Fantasy optimizado para paneles OLED, contraste alto, sistema de tokens en Obsidian y Parchment, componentes atómicos construidos sobre primitivas accesibles de Radix UI y retroalimentación háptica nativa.',
+  questfit: {
+    title: 'QuestFit',
+    category: 'React 19 · TypeScript · Tailwind v4 · Capacitor Android',
+    image: 'assets/img/proyecto-questfit.svg',
+    summary: 'Aplicación híbrida orientada al fitness que gamifica el esfuerzo físico transformando rutinas deportivas en misiones de rol (RPG), con Puntos de Experiencia (EXP), oro virtual, radar de atributos y subidas de nivel.',
+    uiDecisions: 'Diseño Dark Fantasy optimizado para paneles OLED, contraste alto, sistema de tokens en Obsidian y Parchment, componentes atómicos construidos sobre primitivas accesibles de Radix UI y retroalimentación háptica nativa con Capacitor.',
     architecture: 'Arquitectura desacoplada en React 19 + TypeScript con Vite. Context API para la centralización del estado de progresión, persistencia reactiva en almacenamiento local y empaquetado nativo para Android mediante Capacitor 8.',
     github: 'https://github.com/mdpozo/Gremio',
     tags: ['React 19', 'TypeScript', 'Tailwind CSS v4', 'Capacitor 8', 'Radix UI', 'Dark Mode']
   },
+  todolist: {
+    title: 'A Punto (ToDoList)',
+    category: 'Flutter 3 · Dart · Material 3 · Google Calendar Cloud API',
+    image: 'assets/img/proyecto-todolist.svg',
+    summary: 'Gestor de tareas y productividad multiplataforma que centraliza el flujo de trabajo diario y sincroniza eventos directamente con la cuenta de Google Calendar del usuario mediante OAuth2.',
+    uiDecisions: 'Diseño basado en Material Design 3 con jerarquía tipográfica limpia, micro-badges semánticos para categorización y urgencia (Baja, Media, Alta), soporte nativo de modo oscuro y métricas de progreso de tareas completadas.',
+    architecture: 'Patrón desacoplado por capas: UI reactiva modular, gestión de estado con TaskStore (ChangeNotifier), persistencia local en SharedPreferences y servicio cloud GoogleCalendarService con flujo de autorización OAuth2.',
+    github: 'https://github.com/mdpozo/a-punto-task-manager',
+    tags: ['Flutter 3', 'Dart', 'Material 3', 'Google Calendar API', 'OAuth2', 'SharedPreferences']
+  },
   patinetes: {
     title: 'EcoScoot / Alquiler de Patinetes',
-    category: 'Java · JavaFX · Arquitectura Modular (MVC + DAO)',
+    category: 'Java 21 · JavaFX · Arquitectura Modular (MVC + DAO)',
     image: 'assets/img/proyecto-patinetes.svg',
     summary: 'Plataforma desktop integral para la monitorización, telemetría y facturación de una flota urbana de patinetes eléctricos.',
     uiDecisions: 'Interfaz desktop profesional inspirada en dashboards de logística moderna. Tipografía técnica legible (JetBrains Mono), indicadores cromáticos de nivel de batería y tablas interactivas con estados de fila dinámicos.',

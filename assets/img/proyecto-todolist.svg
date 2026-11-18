@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgTodo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E131F"/>
+      <stop offset="100%" stop-color="#161D2E"/>
+    </linearGradient>
+    <linearGradient id="cardTodo" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E2738" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#141B28" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="calendarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4285F4"/>
+      <stop offset="100%" stop-color="#34A853"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#bgTodo)"/>
+
+  <!-- Subtle grid lines -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="0" y1="125" x2="800" y2="125"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+  </g>
+
+  <!-- Top App Bar Mockup -->
+  <rect x="50" y="35" width="700" height="65" rx="12" fill="url(#cardTodo)" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="85" cy="67" r="16" fill="rgba(59, 130, 246, 0.15)"/>
+  <path d="M79 67l4 4 8-8" stroke="#3B82F6" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text x="115" y="73" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="18">A PUNTO · GESTOR DE TAREAS</text>
+  <rect x="525" y="52" width="205" height="32" rx="16" fill="rgba(66, 133, 244, 0.12)" stroke="rgba(66, 133, 244, 0.3)"/>
+  <circle cx="545" cy="68" r="4" fill="#4285F4"/>
+  <text x="557" y="72" fill="#93C5FD" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Google Calendar Sync</text>
+
+  <!-- Left Column: Productivity Metrics & Categories -->
+  <rect x="50" y="120" width="280" height="335" rx="14" fill="url(#cardTodo)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="75" y="155" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="1">PROGRESO DEL DÍA</text>
+  
+  <text x="75" y="195" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="800">75%</text>
+  <text x="155" y="185" fill="#10B981" font-family="'Inter', sans-serif" font-size="12">6 de 8 tareas</text>
+  <text x="155" y="202" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">completadas hoy</text>
+
+  <!-- Progress bar -->
+  <rect x="75" y="215" width="230" height="8" rx="4" fill="#2A354A"/>
+  <rect x="75" y="215" width="172" height="8" rx="4" fill="#10B981"/>
+
+  <line x1="75" y1="245" x2="305" y2="245" stroke="rgba(255,255,255,0.06)"/>
+
+  <text x="75" y="275" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="1">CATEGORÍAS</text>
+
+  <!-- Category 1 -->
+  <rect x="75" y="295" width="230" height="34" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="95" cy="312" r="5" fill="#3B82F6"/>
+  <text x="110" y="316" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12" font-weight="500">Desarrollo DAM</text>
+  <text x="285" y="316" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="end">4</text>
+
+  <!-- Category 2 -->
+  <rect x="75" y="337" width="230" height="34" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="95" cy="354" r="5" fill="#10B981"/>
+  <text x="110" y="358" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12" font-weight="500">Diseño UI/UX</text>
+  <text x="285" y="358" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="end">3</text>
+
+  <!-- Category 3 -->
+  <rect x="75" y="379" width="230" height="34" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="95" cy="396" r="5" fill="#F59E0B"/>
+  <text x="110" y="400" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12" font-weight="500">Personal / FCT</text>
+  <text x="285" y="400" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="end">1</text>
+
+  <!-- Right Cards: Task Items -->
+  <!-- Task 1 (High priority with Calendar badge) -->
+  <rect x="350" y="120" width="400" height="98" rx="12" fill="url(#cardTodo)" stroke="rgba(59, 130, 246, 0.3)"/>
+  <circle cx="380" cy="155" r="10" fill="none" stroke="#3B82F6" stroke-width="2"/>
+  <text x="405" y="152" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600">Revisión de arquitectura y DTOs en Flutter</text>
+  <text x="405" y="172" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Implementar ChangeNotifier e inyección de dependencias</text>
+  <rect x="405" y="184" width="70" height="20" rx="4" fill="rgba(239, 68, 68, 0.15)"/>
+  <text x="440" y="198" fill="#EF4444" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" text-anchor="middle">PRIO ALTA</text>
+  <rect x="483" y="184" width="125" height="20" rx="4" fill="rgba(66, 133, 244, 0.15)"/>
+  <text x="545" y="198" fill="#60A5FA" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" text-anchor="middle">GOOGLE CALENDAR</text>
+  <text x="730" y="198" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="end">18 Nov</text>
+
+  <!-- Task 2 (Completed) -->
+  <rect x="350" y="230" width="400" height="98" rx="12" fill="url(#cardTodo)" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="380" cy="265" r="10" fill="#10B981"/>
+  <path d="M376 265l3 3 5-5" stroke="#0E131F" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="405" y="262" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" text-decoration="line-through">Mockup Figma pantalla de bienvenida M3</text>
+  <text x="405" y="282" fill="#64748B" font-family="'Inter', sans-serif" font-size="11">Definición de componentes reutilizables y paleta tonal</text>
+  <rect x="405" y="294" width="80" height="20" rx="4" fill="rgba(16, 185, 129, 0.15)"/>
+  <text x="445" y="308" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" text-anchor="middle">COMPLETADA</text>
+  <text x="730" y="308" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="end">Ayer</text>
+
+  <!-- Task 3 (Medium Priority) -->
+  <rect x="350" y="340" width="400" height="115" rx="12" fill="url(#cardTodo)" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="380" cy="375" r="10" fill="none" stroke="#64748B" stroke-width="2"/>
+  <text x="405" y="372" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600">Integrar OAuth2 serverClientId en Google Sign-In</text>
+  <text x="405" y="392" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Soporte para creación de eventos de día completo en Calendar</text>
+  <rect x="405" y="407" width="80" height="20" rx="4" fill="rgba(245, 158, 11, 0.15)"/>
+  <text x="445" y="421" fill="#F59E0B" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" text-anchor="middle">PRIO MEDIA</text>
+  <text x="730" y="421" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="end">20 Nov</text>
+</svg>

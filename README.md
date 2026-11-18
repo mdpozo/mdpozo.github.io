@@ -68,7 +68,8 @@ PortfolioWeb/
 │   └── img/                         # Recursos gráficos vectoriales
 │       ├── favicon.svg              # Isotipo / Icono de pestaña
 │       ├── og-preview.svg           # Tarjeta para compartir en redes sociales
-│       ├── proyecto-gremio.svg      # Mockup vectorial de Gremio / QuestFit
+│       ├── proyecto-questfit.svg    # Mockup vectorial de QuestFit (Fitness RPG)
+│       ├── proyecto-todolist.svg    # Mockup vectorial de A Punto ToDoList (Flutter)
 │       ├── proyecto-patinetes.svg   # Mockup vectorial de EcoScoot (JavaFX)
 │       └── proyecto-mercatoweb.svg  # Mockup vectorial de MercatoWeb
 ├── css/

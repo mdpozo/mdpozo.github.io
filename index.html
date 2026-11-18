@@ -288,17 +288,17 @@
 
       <!-- Barra de Filtros Interactiva -->
       <div class="filter-bar" role="tablist" aria-label="Filtrar proyectos por categoría">
-        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos (3)</button>
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos (4)</button>
         <button class="filter-btn" data-filter="frontend" role="tab" aria-selected="false">Frontend &amp; UI</button>
         <button class="filter-btn" data-filter="multiplataforma" role="tab" aria-selected="false">Multiplataforma &amp; DAM</button>
       </div>
 
       <!-- Grid de Proyectos -->
       <div class="projects-grid">
-        <!-- PROYECTO 1: GREMIO / QUESTFIT -->
+        <!-- PROYECTO 1: QUESTFIT -->
         <article class="project-card" data-category="frontend multiplataforma">
           <div class="project-media">
-            <img src="assets/img/proyecto-gremio.svg" alt="Captura interactiva de la aplicación Gremio" class="project-img" loading="lazy">
+            <img src="assets/img/proyecto-questfit.svg" alt="Captura interactiva de la aplicación QuestFit" class="project-img" loading="lazy">
             <div class="project-overlay">
               <span class="tag tag-accent">Destacado · Mobile &amp; Web</span>
             </div>
@@ -311,23 +311,58 @@
               <span class="tag">Capacitor Android</span>
             </div>
             <h3 class="project-title">
-              <span>Gremio (QuestFit)</span>
+              <span>QuestFit</span>
             </h3>
             <p class="project-desc">
-              Aplicación híbrida de fitness que gamifica entrenamientos transformándolos en misiones de rol (RPG), con Puntos de Experiencia (EXP), oro, radar de atributos físicos y feedback háptico.
+              Aplicación híbrida de fitness que gamifica entrenamientos transformándolos en misiones de rol (RPG), con Puntos de Experiencia (EXP), oro, radar de atributos físicos y feedback háptico nativo.
             </p>
             <div class="project-footer">
               <div class="project-links">
-                <a href="https://github.com/mdpozo/Gremio" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Ver código de Gremio en GitHub">
+                <a href="https://github.com/mdpozo/Gremio" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Ver código de QuestFit en GitHub">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12z"/></svg>
                   <span>Código</span>
                 </a>
-                <a href="https://github.com/mdpozo/Gremio" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Ver demo o releases de Gremio">
+                <a href="https://github.com/mdpozo/Gremio" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Ver demo o releases de QuestFit">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                   <span>Releases</span>
                 </a>
               </div>
-              <button class="btn btn-secondary btn-sm open-modal-btn" data-project="gremio" aria-label="Ver detalles de arquitectura de Gremio">
+              <button class="btn btn-secondary btn-sm open-modal-btn" data-project="questfit" aria-label="Ver detalles de arquitectura de QuestFit">
+                Detalles
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROYECTO 2: TODOLIST (A PUNTO) -->
+        <article class="project-card" data-category="multiplataforma">
+          <div class="project-media">
+            <img src="assets/img/proyecto-todolist.svg" alt="Captura interactiva de la aplicación A Punto ToDoList" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <span class="tag tag-accent">Flutter 3 · Material 3 &amp; Cloud</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Dart</span>
+              <span class="tag">Material 3</span>
+              <span class="tag">Google Calendar</span>
+            </div>
+            <h3 class="project-title">
+              <span>A Punto (ToDoList)</span>
+            </h3>
+            <p class="project-desc">
+              Gestor de tareas y productividad multiplataforma con sincronización en la nube de Google Calendar (OAuth2), badges semánticos de prioridad y persistencia local reactiva.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com/mdpozo/a-punto-task-manager" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Ver código de ToDoList en GitHub">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12z"/></svg>
+                  <span>Código</span>
+                </a>
+              </div>
+              <button class="btn btn-secondary btn-sm open-modal-btn" data-project="todolist" aria-label="Ver detalles de arquitectura de ToDoList">
                 Detalles
               </button>
             </div>
