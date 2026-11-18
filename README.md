@@ -23,14 +23,19 @@ Está concebido específicamente como carta de presentación ante agencias de ma
 
 ## Decisiones de Diseño UI/UX & Dirección de Arte
 
-La interfaz sigue una estética **"Editorial Tech / Dark Mode"**, proyectando modernidad, rigor técnico y elegancia visual:
+La interfaz sigue una estética **"Editorial Studio / Agency"** con un sistema dual de temas (Modo Claro predeterminado + Modo Oscuro opcional mediante selector en el navbar):
 
 ### 1. Paleta Cromática y Tokens de Diseño
-- **Fondo Base (`#0B0D10`):** Negro grafito profundo que ofrece máximo contraste con fatiga visual nula, enriquecido con sutiles halos radiales en degradado.
-- **Superficies Elevadas (`#13171F` / `#161B24`):** Tarjetas con desenfoque de cristal (*glassmorphism*) y bordes perimetrales de 1px en `rgba(255, 255, 255, 0.08)`.
-- **Acentos Funcionales:**
-  - **Azul Eléctrico (`#3B82F6`):** Identifica interactividad principal, enlaces y visión de producto frontend.
-  - **Verde Esmeralda Técnico (`#10B981`):** Señaliza disponibilidad para prácticas, éxito en acciones (toast al copiar email) y solidez de backend.
+- **Modo Claro (Predeterminado "Editorial Studio"):**
+  - **Fondo Base (`#F8FAFC`):** Blanco roto perla de alta gama que no deslumbra, con halos radiales suaves.
+  - **Tarjetas y Superficies (`#FFFFFF`):** Blanco puro con bordes sutiles en `#E2E8F0` y sombras difusas multicapa.
+  - **Tipografía en Contraste:** Carbón profundo (`#0F172A`) y pizarra (`#475569`) para máxima legibilidad según estándares WCAG AAA.
+  - **Acentos:** Azul Royal (`#2563EB`) y Verde Esmeralda fresco (`#059669`).
+- **Modo Oscuro (Opcional "Editorial Tech"):**
+  - **Fondo Base (`#0B0D10`):** Negro grafito profundo para pantallas OLED.
+  - **Tarjetas:** `#13171F` con bordes finos en `rgba(255, 255, 255, 0.08)`.
+  - **Acentos:** Azul eléctrico (`#3B82F6`) y esmeralda técnico (`#10B981`).
+- **Selector de Tema en Navbar:** Botón interactivo con icono SVG dinámico (sol/luna) que alterna entre temas al instante y recuerda la preferencia en `localStorage`.
 
 ### 2. Jerarquía Tipográfica
 Se importan tres familias tipográficas de Google Fonts con propósitos complementarios:
@@ -39,7 +44,7 @@ Se importan tres familias tipográficas de Google Fonts con propósitos compleme
 - **JetBrains Mono:** Metadatos, etiquetas de tecnologías, líneas de código y estados de disponibilidad.
 
 ### 3. Componentes y Microinteracciones Clave
-- **Navbar Sticky con Glassmorphism:** Fondo con efecto `backdrop-filter: blur(14px)` y menú adaptable con navegación suave.
+- **Navbar Sticky con Glassmorphism & Theme Toggle:** Menú adaptable con selector de luz/oscuridad, navegación suave y botón CTA directo.
 - **Sección Bento Grid ("El Puente"):** Comparativa visual en 2 columnas que evidencia el valor añadido del perfil híbrido frente a perfiles tradicionales no comunicados.
 - **Filtro Reactivo de Proyectos:** Filtrado dinámico por categoría (*Todos*, *Frontend & UI*, *Multiplataforma*) con transiciones suaves sin frameworks externos.
 - **Modal Accesible (WAI-ARIA):** Diálogo interactivo con detalles técnicos, capturas vectoriales y enlaces directos a GitHub, con soporte para teclado (`Esc`, foco atrapado).
